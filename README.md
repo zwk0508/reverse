@@ -13,7 +13,7 @@ github地址：[https://github.com/zwk0508/reverse.git](https://github.com/zwk05
 
 ### 使用
 
-指定agent： -javaagent:<jar路径>\reverse-agent.jar=<需要处理的包名，多报名以都好分隔>，在maven中引入reflect的jar包
+指定agent： -javaagent:<jar路径>\reverse-agent.jar=<需要处理的包名，多包名以逗号分隔>，在maven中引入reflect的jar包
 
 ```code
  <dependency>
